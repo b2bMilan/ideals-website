@@ -8,7 +8,7 @@ createRoot(document.getElementById('root')).render(
   <StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<App />} />
+        <Route path="/ideals-website/" element={<App />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>,
