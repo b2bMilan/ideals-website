@@ -25,7 +25,7 @@ function App() {
             </div>
             <div className="hero-image-container">
               <img
-                src="src/assets/Splash1.png" /* Replace with your image path */
+                src="./Splash1.png" /* Replace with your image path */
                 alt="Local Deals"
                 className="hero-image"
               />
@@ -38,7 +38,7 @@ function App() {
           <div className="features-container">
             {/* Left Side: Image */}
             <div className="features-image">
-              <img src="src/assets/Dashboard.png" alt="iDeals App Preview" />
+              <img src="./Dashboard.png" alt="iDeals App Preview" />
             </div>
 
             {/* Right Side: Points */}
