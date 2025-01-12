@@ -1,5 +1,6 @@
 {
   "name": "ideals-website",
+  "homepage": "https://b2bmilan.github.io/ideals-website/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -12,7 +13,8 @@
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-router": "^7.1.1"
+    "react-router": "^7.1.1",
+    "react-router-dom": "^7.1.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.17.0",
