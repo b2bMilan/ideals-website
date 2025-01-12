@@ -12,7 +12,7 @@ const Navbar = () => {
       }}>
         <Link to="/ideals-website/">
           <img 
-            src="src/assets/Logo.png" 
+            src="assets/Logo.png" 
             alt="Logo" 
             style={{ height: "40px", padding: "10px" }} 
           />
