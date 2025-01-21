@@ -19,7 +19,6 @@ createRoot(document.getElementById('root')).render(
           <Route path="/ideals-website/" element={<App />} />
           <Route path="/ideals-website/contact" element={<Contact />} />
           <Route path="/ideals-website/privacy" element={<PrivacyPolicy />} />
-          <Route path="/ideals-website/privacy.html" element={<PrivacyPolicy />} />
           <Route path="/ideals-website/guide" element={<Instructions />} />
           <Route path="*" element={<NotFound />} /> {/* Page Not Found */}
         </Routes>  
