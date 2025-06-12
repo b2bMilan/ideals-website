@@ -10,7 +10,7 @@ const Navbar = () => {
         alignItems: "center", 
         justifyContent: "space-between" 
       }}>
-        <Link to="/ideals-website/">
+        <Link to="/">
           <img 
             src="./Logo.png" 
             alt="Logo" 
@@ -18,19 +18,19 @@ const Navbar = () => {
           />
         </Link>
         <div>
-          <Link to="/ideals-website/" style={{ marginRight: "20px" }}>
+          <Link to="/" style={{ marginRight: "20px" }}>
             Home
           </Link>
-          <Link to="/ideals-website/guide" style={{ marginRight: "20px" }}>
+          <Link to="/guide" style={{ marginRight: "20px" }}>
             Instructions
           </Link>
-          <Link to="/ideals-website/contact" style={{ marginRight: "20px" }}>
+          <Link to="/contact" style={{ marginRight: "20px" }}>
             Contact
           </Link>
-          <Link to="/ideals-website/delete-account" style={{ marginRight: "20px" }}>
+          <Link to="/delete-account" style={{ marginRight: "20px" }}>
             Delete Account
           </Link>
-          <Link to="/ideals-website/privacy">
+          <Link to="/privacy">
             Privacy
           </Link>
         </div>

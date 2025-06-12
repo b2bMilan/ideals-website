@@ -13,15 +13,15 @@ import DeleteAccount from './components/DeleteAccount/DeleteAccount.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/ideals-website">
       <Navbar />
       <div className="content">
         <Routes>
-          <Route path="/ideals-website/" element={<App />} />
-          <Route path="/ideals-website/contact" element={<Contact />} />
-          <Route path="/ideals-website/privacy" element={<PrivacyPolicy />} />
-          <Route path="/ideals-website/guide" element={<Instructions />} />
-          <Route path="/ideals-website/delete-account" element={<DeleteAccount />} />
+          <Route path="/" element={<App />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/privacy" element={<PrivacyPolicy />} />
+          <Route path="/guide" element={<Instructions />} />
+          <Route path="/delete-account" element={<DeleteAccount />} />
           <Route path="*" element={<NotFound />} /> {/* Page Not Found */}
         </Routes>  
       </div>
