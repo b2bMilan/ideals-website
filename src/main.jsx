@@ -1,7 +1,7 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
-import { BrowserRouter, Routes, Route } from "react-router";
+import { HashRouter, Routes, Route } from "react-router";
 import App from './components/Home/App.jsx'
 import NotFound from './components/NotFound/NotFound.jsx';
 import Navbar from './components/NavBar/NavBar.jsx';
@@ -13,7 +13,7 @@ import DeleteAccount from './components/DeleteAccount/DeleteAccount.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter basename="/ideals-website">
+    <HashRouter>
       <Navbar />
       <div className="content">
         <Routes>
@@ -26,6 +26,6 @@ createRoot(document.getElementById('root')).render(
         </Routes>  
       </div>
       <Footer />
-    </BrowserRouter>
+    </HashRouter>
   </StrictMode>,
 )
