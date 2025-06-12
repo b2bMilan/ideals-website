@@ -27,6 +27,9 @@ const Navbar = () => {
           <Link to="/ideals-website/contact" style={{ marginRight: "20px" }}>
             Contact
           </Link>
+          <Link to="/ideals-website/delete-account" style={{ marginRight: "20px" }}>
+            Delete Account
+          </Link>
           <Link to="/ideals-website/privacy">
             Privacy
           </Link>

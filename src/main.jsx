@@ -9,6 +9,7 @@ import Footer from './components/Footer/Footer.jsx';
 import Contact from './components/Contact/Contact.jsx';
 import PrivacyPolicy from './components/Privacy/Privacy.jsx';
 import Instructions from './components/Instructions/Instructions.jsx';
+import DeleteAccount from './components/DeleteAccount/DeleteAccount.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -20,6 +21,7 @@ createRoot(document.getElementById('root')).render(
           <Route path="/ideals-website/contact" element={<Contact />} />
           <Route path="/ideals-website/privacy" element={<PrivacyPolicy />} />
           <Route path="/ideals-website/guide" element={<Instructions />} />
+          <Route path="/ideals-website/delete-account" element={<DeleteAccount />} />
           <Route path="*" element={<NotFound />} /> {/* Page Not Found */}
         </Routes>  
       </div>
